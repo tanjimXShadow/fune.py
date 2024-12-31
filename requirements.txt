@@ -1,0 +1,8 @@
+#Include all Python libraries your script depends on. Create a requirements.txt file with the following content:
+
+aiohttp
+beautifulsoup4
+rich
+
+# Run the following command to generate it automatically if you already have these libraries installed:
+pip freeze > requirements.txt
