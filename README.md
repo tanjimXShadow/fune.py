@@ -1,2 +1,18 @@
-# fune.py
-This is most effective one line command tool. Which is Crawl all paramiter ,links , js ,json , api , private and aws key all sensitive information you can find using this tools. Happy Hunting !
+# Fune.py
+
+## Description
+`fune.py` is a Python-based tool for crawling websites, extracting links, detecting sensitive data patterns, and finding JavaScript endpoints.
+
+## Features
+- Asynchronous crawling of websites.
+- Detects sensitive data like API keys, JWT tokens, and private keys using regex.
+- Extracts JavaScript endpoints and query parameters.
+- Supports deep scanning of URLs.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tanjimul1/fune.py.git
+   cd fune.py
+start tool : python3 fune.py
