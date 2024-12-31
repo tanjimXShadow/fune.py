@@ -11,8 +11,8 @@
 
 ## Installation
 
-1. Clone the repository:
+##. Clone the repository:
    ```bash
    git clone https://github.com/Tanjimul1/fune.py.git
    cd fune.py
-start tool : python3 fune.py
+   Install dependencies: 1.  pip install -r requirements.txt  2. python fune.py
