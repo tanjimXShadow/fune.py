@@ -1,8 +1,35 @@
 #Include all Python libraries your script depends on. Create a requirements.txt file with the following content:
 
-aiohttp
+✅ Prerequisites :
+
 beautifulsoup4
+requests
+lxml
+aiohttp
 rich
+colorama
+termcolor
+
+✅ Step by step with commands :
+//Install python3-venv
+sudo apt update
+sudo apt install python3-venv -y
+
+//Creat Virtual Environment:
+cd /home/tanjimul/fune.py
+python3 -m venv venv
+source venv/bin/activate
+
+//Download All Necessary Libraries : 
+pip install beautifulsoup4 requests lxml aiohttp rich colorama termcolor
+
+//Update :
+pip freeze > requirements.txt
+
+//Run Tool :
+python3 fune.py
+
+
 
 # Run the following command to generate it automatically if you already have these libraries installed:
 pip freeze > requirements.txt
