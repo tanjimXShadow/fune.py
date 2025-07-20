@@ -1,5 +1,7 @@
 # Fune.py
 
+![fune.py Banner](https://raw.githubusercontent.com/tanjimulislamsifat/fune.py/9ff4e9f4358b48aa6a9be94a33d54fdef15f259a/funepy.jpg)
+
 ## Description
 `fune.py` is a Python-based tool for crawling websites, extracting links, detecting sensitive data patterns, and finding JavaScript endpoints.
 
